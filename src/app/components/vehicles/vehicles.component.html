@@ -1,0 +1,18 @@
+<table class="table">
+  <thead class="thead-dark" style="background: #282828; color: white">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Marca</th>
+    <th scope="col">Línea</th>
+    <th scope="col">Modelo</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let vehicle of vehicles">
+    <th scope="row">{{vehicle.id}}</th>
+    <td>{{vehicle.marca}}</td>
+    <td>{{vehicle.linea}}</td>
+    <td>{{vehicle.modelo}}</td>
+  </tr>
+  </tbody>
+</table>
