@@ -1,4 +1,4 @@
-<table class="table">
+<table id="vehicles-table" class="table">
   <thead class="thead-dark" style="background: #282828; color: white">
   <tr>
     <th scope="col">#</th>
@@ -8,7 +8,7 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let vehicle of vehicles">
+  <tr class="auto-row" *ngFor="let vehicle of vehicles">
     <th scope="row">{{vehicle.id}}</th>
     <td>{{vehicle.marca}}</td>
     <td>{{vehicle.linea}}</td>
